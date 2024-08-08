@@ -1,5 +1,3 @@
-
-
-module.exports={
-    JWT_SECRET: 'PradumTiwari'
-}
+module.exports = {
+    JWT_SECRET: 'Pradum Tiwari'
+};

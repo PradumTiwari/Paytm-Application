@@ -1,4 +1,5 @@
-const {JWT_SECRET}=require('../config/jwt');
+const { JWT_SECRET } = require('../config/jwt');
+
 const jwt=require('jsonwebtoken');
 
 const authmiddleware=async(req,res,next)=>{
@@ -20,4 +21,4 @@ const authmiddleware=async(req,res,next)=>{
 
 }
 
-module.exports={authmiddleware};
+module.exports=authmiddleware;
